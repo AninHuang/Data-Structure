@@ -16,6 +16,7 @@ class LinkedList {
     this.tail = null;
   }
 
+  // O(1) Constant time
   push(val) {
     const newNode = new Node(val);
     
@@ -28,6 +29,7 @@ class LinkedList {
     }
   }
 
+  // O(1) Constant time
   shift() {
     if (!this.head) {
       return;
